@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080" prefWidth="1920" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ar.contatorevinopong.ContatoreController">
+   <children>
+      <Label fx:id="lblTitolo" alignment="CENTER" layoutX="124.0" layoutY="96.0" prefHeight="342.0" prefWidth="1673.0" text="VINOPONG" AnchorPane.bottomAnchor="642.0" AnchorPane.leftAnchor="124.0" AnchorPane.rightAnchor="123.0" AnchorPane.topAnchor="96.0">
+         <font>
+            <Font name="System Bold" size="250.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblNum" alignment="CENTER" layoutX="383.0" layoutY="423.0" prefHeight="579.0" prefWidth="1167.0" text="0" textAlignment="CENTER" AnchorPane.bottomAnchor="78.0" AnchorPane.leftAnchor="383.0" AnchorPane.rightAnchor="370.0" AnchorPane.topAnchor="423.0">
+         <font>
+            <Font name="System Bold" size="400.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
