@@ -34,7 +34,7 @@ public class Contatore extends Application {
 
         stage.setTitle("Numero Vinopong");
         stage.setScene(scene);
-        //stage.setFullScreen(true);
+        stage.setFullScreen(true);
         stage.show();
     }
 
@@ -48,7 +48,8 @@ public class Contatore extends Application {
                 System.out.println("Letto da file: "+numLetto);
             }
         } catch (Exception ex){
-            ex.printStackTrace();
+            System.out.println("File non trovato, lo creo");
+            return 0;
         }
         return numLetto;
     }
